@@ -1,0 +1,131 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #210024;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #210022;
+}
+
+.logo {
+    color: #481341;
+}
+
+.navbar a {
+    color:#f379f3;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.login-btn {
+    background-color: #3d063f;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    background-color: #4e0451;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #210022, #4b034d, #5c015f);
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: auto;
+    color:#f379f3;
+    
+}
+
+.hero-buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.primary {
+    background-color: #410743;
+    color:#f379f3;
+    
+}
+
+.secondary {
+    border: 1px solid #5c155f;
+    color:#f379f3;
+    
+}
+
+.primary:hover {
+    background-color: #621865;
+}
+
+.secondary:hover {
+    background-color: #4e0351;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: #e5a5e7;
+    padding: 25px;
+    width: 280px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+    color: #481341;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #e5a5e7;
+
+    
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #550957;
+    font-size: 13px;
+    color: #b0c4ff;
+}
